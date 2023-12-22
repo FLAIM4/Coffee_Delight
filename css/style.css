@@ -332,6 +332,7 @@ a {
     color: white;
     font-size: 20px;
     margin-right: 28px;
+    border: none;
 }
 
 .line9 {
@@ -383,6 +384,7 @@ a {
     margin: 0 auto;
     height: 474px;
     display: flex;
+    justify-content: space-between;
 }
 
 .c3 {
@@ -410,4 +412,78 @@ a {
 .svg2 {
     margin-top: 60px;
     margin-bottom: 23px;
+}
+
+.svg3 {
+    margin-top: 60px;
+    margin-bottom: 23px;
+    width: 73px;
+    height: 73px;
+}
+
+.line12 {
+    width: 388px;
+} 
+
+.line13 {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 248px;
+    background: #040404;
+}
+
+.container4 {
+    width: 1200px;
+    height: 248px;
+    margin: 0 auto;
+}
+
+.logo1 {
+    margin-top: 56px;
+    width: 187px;
+}
+
+.div15 a {
+    font-family: "Montserrat";
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.cont1 {
+    display: flex;
+}
+
+.div15 {
+    margin-top: 59px;
+    margin-right: 62px;
+}
+
+.div15 h1{
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.otsp {
+    margin-left: 423px;
+}
+
+.div15 li {
+    margin-bottom: 5px;
+}
+
+.line14 {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.cont2 {
+    display: flex;
 }
