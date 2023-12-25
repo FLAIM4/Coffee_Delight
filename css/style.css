@@ -398,6 +398,10 @@ a {
     width: 388px;
 }
 
+.line15 {
+    width: 388px;
+}
+
 .svg1 {
     margin-bottom: 23px;
 }
@@ -487,4 +491,32 @@ ul {
     display: flex;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+.hide {
+    display: none;
+}
+
+.a3:hover {
+    text-decoration: underline;
+}
+
+.btn2:hover {
+    background-color: #fffacf2d;
+}
+
+.btn3:hover {
+    background-color: #ffffff2d;
+}
+
+.btn1:hover {
+    background-color: #fffacf2d;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.a3 {
+    color: black;
 }
