@@ -325,6 +325,7 @@ a {
 }
 
 .btn5 {
+    transition: 0.2s;
     width: 173px;
     height: 48px;
     border-radius: 60px;
@@ -517,6 +518,44 @@ ul {
     cursor: pointer;
 }
 
-.a3 {
+
+.btn5:hover {
+    position: relative;
+    z-index: 909;
+    transition: 0.2s;
+    background-color: rgba(47, 47, 47, 0);
+    border: 2px solid black;
     color: black;
+}
+
+.a1, .a2 {
+    cursor: pointer;
+}
+
+.a2hover{
+    color: black;
+}
+
+.a1hover{
+    color: black;
+}
+
+.div13 img{
+    transition: all 0.2s linear;
+    position: relative;
+    z-index: 1;
+}
+
+.div13 img:hover {
+    transition: all 0.2s linear;
+    transform: scale(1.2);
+}
+
+.div13:hover {
+    transition: all 0.2s linear;
+    background: #dadada;
+}
+
+.div13 {
+    transition: all 0.2s linear;
 }
