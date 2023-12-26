@@ -559,3 +559,27 @@ ul {
 .div13 {
     transition: all 0.2s linear;
 }
+
+.modalBackground {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #04040454;
+}
+.modalActive{
+    background-color: white;
+    z-index: 99999;
+    border-radius: 60px;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+body {
+    overflow: hidden;
+}

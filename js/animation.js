@@ -22,7 +22,8 @@ window.addEventListener("scroll", function() {
 });
 
 const element2 = document.querySelector('.a2');
-const element3 = document.querySelector('.a1');
+const element3 = document.querySelector('.a1')
+
 
 element2.addEventListener('click', () =>{
   element2.classList.add('a2hover');
@@ -32,4 +33,10 @@ element2.addEventListener('click', () =>{
 element3.addEventListener('click', () =>{
   element3.classList.remove('a2');
   element2.classList.remove('a2hover')
+})
+
+const btn5 = document.querySelector(".btn5");
+
+btn5.addEventListener('click', function() {
+  
 })
